@@ -17,3 +17,6 @@ spec:
           image: eforder.azurecr.io/evansdockerglpidb
           ports:
           - containerPort: 3306
+          env:
+            - name: MARIADB_ROOT_PASSWORD
+              value: pas
